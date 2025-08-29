@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        
+        <!-- Basic Meta Tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Attendly</title>
+        <meta name="description" content="A trick for scanning QR codes and marking attendance, without being present" />
+        <meta name="keywords" content="QR, scanner, attendance, MyCamu" />
+        <meta name="author" content="Sahil Nihalani" />
+        
+        <!-- PWA Meta Tags -->
+        <meta name="theme-color" content="#0a0a0a" />
+        <meta name="background-color" content="#e5e5e5" />
+        <meta name="display" content="standalone" />
+        <meta name="orientation" content="portrait-primary" />
+        
+        <!-- Web App Manifest -->
+        <link rel="manifest" href="/manifest.json" />
+        
+        <!-- Favicon and Icons -->
+        <link rel="icon" href="/icon.svg" sizes="any" type="image/svg+xml">
+        <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512x512.png" />
+        
+        <!-- iOS Specific Meta Tags -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="Attendly" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-192x192.png" />
+        
+        <!-- iOS Splash Screens -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="apple-touch-startup-image" href="/icons/icon-512x512.png" />
+        
+        <!-- Android/Chrome Meta Tags -->
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="application-name" content="Attendly" />
+        
+        <!-- Microsoft Tiles -->
+        <meta name="msapplication-TileColor" content="#0a0a0a" />
+        <meta name="msapplication-TileImage" content="/icons/icon-192x192.png" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        
+        <!-- Security -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="referrer" content="no-referrer" />
+        
+        <!-- Performance -->
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

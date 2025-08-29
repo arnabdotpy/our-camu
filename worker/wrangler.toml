@@ -1,0 +1,21 @@
+name = "proxy-attendance-worker"
+main = "src/index.ts"
+compatibility_date = "2025-08-06"
+
+# Production environment
+[env.production]
+name = "proxy-attendance-worker"
+[env.production.vars]
+ENVIRONMENT = "production"
+
+# Development environment (optional)
+[env.development]
+name = "proxy-attendance-worker-dev"
+[env.development.vars]
+ENVIRONMENT = "development"
+
+[observability]
+enabled = true
+
+[observability.logs]
+invocation_logs = false
