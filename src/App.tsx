@@ -84,7 +84,7 @@ function App() {
           <div className="flex justify-between items-center mb-6 sm:mb-8">
             <div className="flex items-center gap-2">
               <img src="/icon.svg" className="w-10"/>
-              <h1 className="text-3xl font-black text-sky-500 font-heading">Attendly</h1>
+              <h1 className="text-3xl font-black text-sky-500 font-heading">OurCamu</h1>
             </div>
             <div className="flex items-center gap-2">
               <PWAInstaller />
