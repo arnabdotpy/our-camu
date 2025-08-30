@@ -77,7 +77,7 @@ const stu_profiles = [
         "category": ["Batch5"]
     },
     {
-        "username": "E23CSEU00697@bennett.edu.in",
+        "username": "E23CSEU0697@bennett.edu.in",
         "password": "s9QBhCFL",
         "name": "Shimon",
         "category": ["S12", "DataScience"]
