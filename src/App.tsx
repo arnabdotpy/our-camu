@@ -15,7 +15,7 @@ interface Result {
 }
 
 function App() {
-  const [selectedGroup, setSelectedGroup] = useState("G6");
+  const [selectedGroup, setSelectedGroup] = useState("S12");
   const [results, setResults] = useState<Result[]>([]);
   const [isProcessing, setIsProcessing] = useState(false);
 
