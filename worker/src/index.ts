@@ -8,55 +8,55 @@ const stu_profiles = [
         "username": "E23CSEU0705@bennett.edu.in",
         "password": "Reo@#2004",
         "name": "Arnab Roy",
-        "category": ["G6", "AI"]
+        "category": ["S12", "AI"]
     },
     {
         "username": "e23cseu0698@bennett.edu.in",
         "password": "8UzUwsg4",
         "name": "Aditya Shanker",
-        "category": ["G6", "DataScience"]
+        "category": ["S12", "DataScience"]
     },
     {
         "username": "e23cseu0688@bennett.edu.in",
         "password": "Arka@671",
         "name": "Arkadip Das",
-        "category": ["G6", "AI"]
+        "category": ["S12", "AI"]
     },
     {
         "username": "e23cseu0638@bennett.edu.in",
         "password": "Wlb9fQ0v",
         "name": "Shikhar Kar",
-        "category": ["G6", "DataScience"]
+        "category": ["S12", "DataScience"]
     },
     {
         "username": "E23CSEU0712@bennett.edu.in",
         "password": "6uyJtDPm",
         "name": "Karan Tyagi",
-        "category": ["G6", "AI"]
+        "category": ["S12", "AI"]
     },
     {
         "username": "E23CSEU0679@bennett.edu.in",
         "password": "U0b6K0ED",
         "name": "Abhishek Sharma",
-        "category": ["G6", "AI"]
+        "category": ["S12", "AI"]
     },
     {
         "username": "e23cseu0672@bennett.edu.in",
         "password": "10-11-2005",
         "name": "Piyush Pagare",
-        "category": ["G6", "DataScience"]
+        "category": ["S12", "DataScience"]
     },
     {
         "username": "e23cseu0692@bennett.edu.in",
         "password": "QmlInnsb",
         "name": "Urvashi Agarwal",
-        "category": ["G6", "AI"]
+        "category": ["S12", "AI"]
     },
     {
         "username": "e23Cseu0500@bennett.edu.in",
         "password": "AQDKa1wC",
         "name": "Ayush",
-        "category": ["G6"]
+        "category": ["S12"]
     },
     {
         "username": "E23CSEU0121@bennett.edu.in",
@@ -76,7 +76,54 @@ const stu_profiles = [
         "name": "Silky",
         "category": ["Batch5"]
     },
-    
+    {
+        "username": "E23CSEU00697@bennett.edu.in",
+        "password": "s9QBhCFL",
+        "name": "Shimon",
+        "category": ["S12", "DataScience"]
+    },
+    {
+        "username": "e23cseu2251@bennett.edu.in",
+        "password": "EDegicxk",
+        "name": "Akshat",
+        "category": ["B76"]
+    },
+    {
+        "username": "E23CSEU2261@bennett.edu.in",
+        "password": "AkshayRaj@2261",
+        "name": "Akshay",
+        "category": ["B76"]
+    },
+    {
+        "username": "E23CSEU2272@bennett.edu.in",
+        "password": "jlFjnAvQ",
+        "name": "Swapnil",
+        "category": ["B76"]
+    },
+    {
+        "username": "E23CSEU0657@bennett.edu.in",
+        "password": "Bu@#1805",
+        "name": "Udit",
+        "category": ["S12"]
+    },
+    {
+        "username": "E23CSEU0634@bennett.edu.in",
+        "password": "gUfC4lya",
+        "name": "Diva",
+        "category": ["S12"]
+    },
+    {
+        "username": "E23cseu0633@bennett.edu.in",
+        "password": "Krish@2005",
+        "name": "Krish",
+        "category": ["S12"]
+    },
+    {
+        "username": "E23cseu2443@bennett.edu.in",
+        "password": "CuVpyDyN",
+        "name": "Darsheel",
+        "category": ["S12"]
+    },
 ]
 
 async function get_cookies(username: string, password: string) {

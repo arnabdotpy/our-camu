@@ -8,10 +8,11 @@ interface GroupSelectorProps {
 }
 
 const groups = [
-  { value: 'G6', label: 'Group 6' },
+  { value: 'S12', label: 'Section 12' },
   { value: 'DataScience', label: 'Data Science' },
   { value: 'AI', label: 'AI' },
   { value: 'Batch5', label: 'Batch 5' },
+  { value: 'B76', label: 'Batch 76' },
 ];
 
 const GroupSelector: React.FC<GroupSelectorProps> = ({
