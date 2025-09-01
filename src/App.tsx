@@ -83,8 +83,8 @@ function App() {
           {/* Header with improved mobile spacing */}
           <div className="flex justify-between items-center mb-6 sm:mb-8">
             <div className="flex items-center gap-2">
-              <img src="/icon.svg" className="w-14"/>
-              <h1 className="text-3xl font-black  font-heading">OurCamu</h1>
+              <img src="/icon.svg" className="w-8"/>
+              <h1 className="text-3xl font-bold font-heading">OurCamu</h1>
             </div>
             <div className="flex items-center gap-2">
               <PWAInstaller />
